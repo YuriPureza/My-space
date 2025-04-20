@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+#tittle {
+    text-align: center;
+    color: purple;
+    background-color: RGB(200, 162, 200);
+    padding: 1px 0;
+}
+
+
