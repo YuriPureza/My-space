@@ -10,6 +10,10 @@ body {
     padding: 1px 0;
 }
 
-div {
-    
+#info {
+    border: 5px solid rgb(199, 17, 199);
+    padding: 0.2em;
+    width: 250px;
+    background-color: rgb(247, 208, 247);
 }
+
