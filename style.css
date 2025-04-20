@@ -1,6 +1,9 @@
 body {
     margin: 0;
+<<<<<<< HEAD
     background-color: lightblue;
+=======
+>>>>>>> 7c3d13df8a305b1b917539c83b8c6ee489291efc
 }
 
 #tittle {
@@ -9,3 +12,8 @@ body {
     background-color: RGB(200, 162, 200);
     padding: 1px 0;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7c3d13df8a305b1b917539c83b8c6ee489291efc
