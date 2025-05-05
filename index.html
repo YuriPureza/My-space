@@ -3,21 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Space</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <title>Projeto Web</title>
 </head>
-<body>
+<body id="principal">
     <div id="tittle">
-        <h1>My Space</h1>
+        <nav>
+            <div class="header">
+                <h1 class="tittle">My space</h1>
+                <h3><button><a href="#contatos">Contatos</a></button></h3>
+            </div>
+        </nav>
     </div>
 
-        <div>
-            <ul id="info">
-                <li>Nome: Yuri Gabriel Ribeiro Pureza</li>
-                <li>Idade: 24 anos</li>
-                <li>Hobby: Kart</li>
+    <div id="info">
+        <h2 class="tittle">Informações</h2>
+        <ul class="list">
+            <li>Nome: Yuri Gabriel Ribeiro Pureza.</li>
+            <li>Idade: 24 anos.</li>
+            <li>Cidade: Brasília-DF.</li>
+            <li>Cursando Técnico em Analise e Desenvolvimento de Sistemas.</li>
+            <li>Expectativa de futuro no mercado de trabalho:</li>
+            <li>Me tornar programador Java e mais futuramente um GameDirector.</li>
+        </ul>
+    </div>
+
+    <div id="hobbies">
+        <h2 class="tittle">Hobbies</h2>
+        <div class="list">
+            <ul>
+                <li>Assistir filmes e series</li>
+                <li>Andar de Kart</li>
+                <li>Jogar Jogos</li>
+                <li>Assistir e acompanhar esportes:</li>
+                <table>
+                <tr>
+                    <td><img src="img/F1.jpg" alt="" width="200px"></td>
+                    <td><img src="img/FA.jpg" alt="" width="200px"></td>
+                    <td><img src="img/CR.avif" alt="" width="200px"></td>
+                    <td><img src="img/FL.webp" alt="" width="200px"></td>
+                    <td><img src="img/Es.jpg" alt="" width="250px" height="110"></td>
+                </tr>
+                <tr>
+                    <td>Formula 1</td>
+                    <td>Futebol Americano</td>
+                    <td>Basquete</td>
+                    <td>Futebol</td>
+                    <td>E-SPORTS</td>
+                </tr>
+            </table>
+            </ul>
+        </div>  
+    </div>
+
+    <div id="curiosidade">
+        <h2 class="tittle">Curiosidades</h2>
+        <p class="list" style="margin-left: 1%;">Tenho um video postado na internet de quando eu era criança onde desci de rapel de uma ponte.</p>
+        <div id="video" style="margin-left: 1%;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CVhzpNNBmHI?si=h223vQRl0UIssveg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+
+    <div id="contatos" style="margin-top: 4%;">
+        <h2 id="tc" class="tittle">Contatos</h2>
+        <div class="list">
+            <ul>
+                <li>E-mail: yurigabrielpureza@gmail.com</li>
+                <li>Número: (61) 98536-5158</li>
+                <li><a href="https://www.linkedin.com/in/yuripureza/" class="link" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/YuriPureza" class="link" target="_blank">GitHub</a></li>
             </ul>
         </div>
 
+        <form style="margin-left: 2%;">
+            <label class="list">Envie e-mail para contato:</label>
+            <textarea placeholder="Digite sua mensagem" minlength="20"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <button style="margin-top: 2%; margin-left: 50%;"><a href="#principal">Ir para o topo</a></button>
 </body>
 </html>

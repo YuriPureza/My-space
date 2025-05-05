@@ -1,19 +1,98 @@
-body {
+#principal {
     margin: 0;
-    background-color: lightblue;
+    background-color: gray;
+    
+}
+
+h1 {
+    color: red;
+    
+}
+
+.tittle {
+    text-align: left;
+    padding: 15px 0;
+    margin-right: 10%;
+    margin-left: 2%;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 2px 2px white, -2px -2px white;
+}
+
+
+.header {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.header > h3 {
+    width: 170px;
+    height: 50px;
+    border-radius: 1%;
+    padding: 1em;
+    margin-left: 8rem;
+    color: white;
+    
 }
 
 #tittle {
-    text-align: center;
-    color: purple;
-    background-color: RGB(200, 162, 200);
-    padding: 1px 0;
-}
+    background-color: black;
+    
+} 
 
-#info {
-    border: 5px solid rgb(199, 17, 199);
-    padding: 0.2em;
+
+label, textarea {
+    display: block;
+  }
+  
+  textarea {
+    margin: 15px 0;
     width: 250px;
-    background-color: rgb(247, 208, 247);
+    height: 100px
+  }
+
+  a {
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+button:hover {
+    background-color: red;
+}
+
+.list {
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-style: normal;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ------------------------- Fontes -----------------------*/
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
